@@ -1,16 +1,36 @@
-# wordy
+# Random Word Generator
 
-A new Flutter project.
+Aplikasi Random Word Generator adalah sebuah aplikasi sederhana yang menghasilkan kata acak dengan panjang 20 karakter. Aplikasi ini dibangun menggunakan Flutter.
 
-## Getting Started
+## Fitur
 
-This project is a starting point for a Flutter application.
+- Menghasilkan kata acak dengan panjang 20 karakter.
+- Memungkinkan pengguna untuk menyalin kata acak ke clipboard perangkat.
 
-A few resources to get you started if this is your first Flutter project:
+## Instalasi
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Pastikan Anda telah menginstal Flutter SDK dan mengatur lingkungan kerja Flutter di komputer Anda.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone repositori ini ke komputer Anda.
+`git clone https://github.com/ferdifir/wordy.git`
+
+2. Buka terminal dan arahkan ke direktori proyek.
+`cd wordy`
+
+3. Jalankan perintah berikut untuk menginstal semua dependensi.
+`flutter pub get`
+
+4. Terhubungkan perangkat atau emulator yang sudah terhubung.
+
+5. Jalankan aplikasi menggunakan perintah berikut.
+`flutter run`
+
+
+## Penggunaan
+
+Setelah Anda menjalankan aplikasi, Anda akan melihat tampilan aplikasi dengan sebuah tombol "Generate" dan teks kosong di tengah layar.
+
+- Tekan tombol "Generate" untuk menghasilkan kata acak baru.
+- Teks kata acak akan ditampilkan di layar.
+- Tekan teks "Salin Teks" untuk menyalin kata acak ke clipboard perangkat Anda.
+
